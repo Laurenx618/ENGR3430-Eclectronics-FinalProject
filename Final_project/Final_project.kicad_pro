@@ -324,6 +324,10 @@
     [
       "5f380518-a4aa-4cf5-aa47-79ba18474bc7",
       "WiFi_Module"
+    ],
+    [
+      "a587f9f9-6d27-4989-a344-d47a4b55e4be",
+      "AudioJack3_i2s"
     ]
   ],
   "text_variables": {}
