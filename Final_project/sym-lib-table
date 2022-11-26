@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "ESP32-WROOM-32")(type "Legacy")(uri "${KIPRJMOD}/Final_project.lib/ESP32-WROOM-32.lib")(options "")(descr ""))
+  (lib (name "miniproject")(type "KiCad")(uri "/home/mkazazic/Documents/Eclectronics/MP1/miniproject.kicad_sym")(options "")(descr ""))
 )

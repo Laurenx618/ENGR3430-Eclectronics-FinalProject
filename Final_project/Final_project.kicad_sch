@@ -3028,6 +3028,10 @@
     (property "Sheet file" "light_sensing.kicad_sch" (id 1) (at 175.26 116.1546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "Vout_photo" output (at 204.47 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5ce7ec76-89d0-4a6d-a2dd-bdb486e72b23)
+    )
   )
 
   (sheet_instances
@@ -3154,6 +3158,12 @@
     (path "/5f380518-a4aa-4cf5-aa47-79ba18474bc7/3a66c6ca-a5f7-44fb-974d-4838a0af20bc"
       (reference "#PWR0136") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/9044928e-cf49-4703-b68a-b82a255f3d2f/6dca002b-3689-4d76-ba7e-971dd354462d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9044928e-cf49-4703-b68a-b82a255f3d2f/ce0c8187-9534-4154-9f98-3cba46857436"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/4185e825-d3db-49f7-84c3-1d674f768766"
       (reference "C1") (unit 1) (value "0.1µF") (footprint "Final_project:CL10B104JB8NNNC")
     )
@@ -3202,6 +3212,9 @@
     (path "/5f380518-a4aa-4cf5-aa47-79ba18474bc7/51f4be1d-9833-4b21-b005-8eaead4b6dc4"
       (reference "C16") (unit 1) (value "10µF") (footprint "Final_project:GRM188R61E106KA73D")
     )
+    (path "/9044928e-cf49-4703-b68a-b82a255f3d2f/a8f6fea5-6a80-4abe-adc8-0fd7cd1d1516"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
     (path "/c2461336-3de5-4651-bacc-5ee03cccd9eb"
       (reference "D1") (unit 1) (value "LED") (footprint "Final_project:LTST-C170TBKT")
     )
@@ -3216,6 +3229,9 @@
     )
     (path "/5f380518-a4aa-4cf5-aa47-79ba18474bc7/74ef752a-a6cc-433a-a0b8-8973a3534771"
       (reference "D5") (unit 1) (value "LED") (footprint "Final_project:LTST-C170TBKT")
+    )
+    (path "/9044928e-cf49-4703-b68a-b82a255f3d2f/1736b8b7-6bdb-41af-8ad7-83d4bf1750af"
+      (reference "D?") (unit 1) (value "D_Photo") (footprint "")
     )
     (path "/153205ff-d08c-4a78-91d6-71b25838037b"
       (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "Final_project:USB4105-GF-A")
@@ -3259,6 +3275,9 @@
     (path "/5f380518-a4aa-4cf5-aa47-79ba18474bc7/dff74d62-c69b-47af-b85e-acb5bdd5baed"
       (reference "R13") (unit 1) (value "1K") (footprint "Final_project:RC0603FR-071KL")
     )
+    (path "/9044928e-cf49-4703-b68a-b82a255f3d2f/0aea6349-0e56-48d6-87a8-964bdf7f3177"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
     (path "/d88ecd80-f389-40aa-8f67-79097bb2830a"
       (reference "S1") (unit 1) (value "RST") (footprint "Final_project:KXT321LHS")
     )
@@ -3276,6 +3295,9 @@
     )
     (path "/5f380518-a4aa-4cf5-aa47-79ba18474bc7/42ae2f29-e708-436f-86eb-adcb0426e193"
       (reference "U4") (unit 1) (value "ESP32-WROOM-32") (footprint "Final_project:MODULE_ESP32-WROOM-32")
+    )
+    (path "/9044928e-cf49-4703-b68a-b82a255f3d2f/0db1a1ec-8c01-4b3e-9b95-87118412500d"
+      (reference "U?") (unit 1) (value "MCP6021T-E_OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/b995bef3-23bd-41bd-824d-90a30eae13e1"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Final_project:CSTNE")
