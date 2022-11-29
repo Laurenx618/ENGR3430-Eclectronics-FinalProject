@@ -133,11 +133,11 @@
         },
         {
           "diameter": 0.3048,
-          "drill": 0.1524
+          "drill": 0.0
         },
         {
           "diameter": 0.6096,
-          "drill": 0.0
+          "drill": 0.3048
         }
       ],
       "zones_allow_external_fillets": false,

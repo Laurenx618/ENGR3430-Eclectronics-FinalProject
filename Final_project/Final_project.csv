@@ -1,0 +1,27 @@
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Digi-Key_Part
+1,12,"C1, C2, C3, C4, C5, C6, C7, C10, C11, C15, C17, C18",0.1µF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,CL10B104JB8NNNC
+2,3,"C8, C9, C14",1µF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,CL10B105KA8NNNC
+3,3,"C12, C13, C16",10µF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,GRM188R61E106KA73D
+4,4,"D1, D3, D4, D5",LED,Device:LED_Filled,Final_project:LTST-C170TBKT,~,LTST-C170TBKT
+5,2,"D2, D6",PWR,Device:LED_Filled,Final_project:LTST-C170TGKT,~,LTST-C170TGKT
+6,1,D7,SWITCH,Device:LED_Filled,Final_project:LTST-C170TGKT,~,LTST-C170TGKT
+7,1,J1,USB4105-GF-A,Eclectronics:USB4105-GF-A,Final_project:USB4105-GF-A,,USB4105-GF-A
+8,1,J2,Conn_01x04,Connector_Generic:Conn_01x04,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal,~,PPTC041LGBN-RC
+9,1,J4,LEFT,Connector_Generic:Conn_01x20,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,~,~
+10,1,J5,RIGHT,Connector_Generic:Conn_01x20,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,~,~
+11,4,"R1, R2, R3, R4",5.1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,ERJ-3EKF5101V
+12,2,"R5, R6",27Ω,Device:R,Resistor_SMD:R_0603_1608Metric,~,
+13,8,"R7, R8, R10, R11, R12, R13, R14, R17",1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,RC0603FR-071KL
+14,3,"R9, R15, R16",10K,Device:R,Resistor_SMD:R_0805_2012Metric,~,
+15,1,R18,R_Photo,Device:R_Photo,Final_project:02-LDR4,~,
+16,1,RV1,LDR,Device:R_Potentiometer,Final_project:TRIM_T73YU103KT20,~,TRIM_T73YU103KT20
+17,1,S1,RST,Eclectronics:SW,Final_project:KXT321LHS,,KXT321LHS
+18,1,S2,BOOT,Eclectronics:SW,Final_project:KXT321LHS,,KXT321LHS
+19,1,U1,RP2040,Eclectronics:RP2040,Final_project:RP2040,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf,MCP1702T-3302E&slash_CB
+20,1,U2,MCP1702T-3302E_CB,Eclectronics:MCP1702T-3302E_CB,Final_project:MCP1702T-3302E&slash_CB,,MIC_WSON-8-M
+21,1,U3,W25Q128JV,Eclectronics:W25Q128JV,Final_project:MIC_WSON-8-M,,X
+22,1,U4,ESP32-WROOM-32,ESP32-WROOM-32:ESP32-WROOM-32,MODULE_ESP32-WROOM-32,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf,LM393D
+23,1,U5,LM393D,pspice:OPAMP,Final_project:LM393D,~,CSTNE
+24,1,Y1,12MHz,Eclectronics:Crystal,Final_project:CSTNE,,
